@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: Helvetica, sans-serif;
+  src: url('/public/Font/HELVETICASCHOOL.TTF');
+}
+
+@theme {
+  /* --- Fonts */
+  --font-helvetica: 'Helvetica', sans-serif;
+
+  /* --- Colors */
+  --color-white: #ffffff;
+  --color-off-white: #f1f1f1;
+  --color-light-gray: #fafafa;
+  --color-light-gray-2: #ebebeb;
+  --color-dark-gray: #111111;
+
+  /* --- Screens */
+  --breakpoint-wide: 1440px;
+}
+
+@utility padding {
+  @apply sm:px-16 px-8 sm:py-24 py-12;
+}
+
+@utility padding-x {
+  @apply sm:px-16 px-8;
+}
+
+@utility padding-y {
+  @apply sm:py-24 py-12;
+}
+
+@utility padding-l {
+  @apply sm:pl-16 pl-8;
+}
+
+@utility padding-r {
+  @apply sm:pr-16 pr-8;
+}
+
+@utility padding-t {
+  @apply sm:pt-24 pt-12;
+}
+
+@utility padding-b {
+  @apply sm:pb-24 pb-12;
+}
