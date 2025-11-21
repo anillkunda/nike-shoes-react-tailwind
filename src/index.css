@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'tailwindcss';
+
+@font-face {
+  font-family: Helvetica, sans-serif;
+  src: url('/public/Font/HELVETICASCHOOL.TTF');
+}
+
+@theme {
+  /* --- Fonts --- */
+  --font-helvetica: 'Helvetica', sans-serif;
+  --font-rubik: 'Rubik', sans-serif;
+
+  --font-sans: var(--font-rubik), ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto;
+
+  /* --- Colors --- */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-offwhite: #f1f1f1;
+  --color-red-coral: #ff6452;
+  --color-gray-dark: #555555;
+  --color-gray-darkest: #131313;
+  --color-white-400: rgba(255, 255, 255, 0.8);
+
+  /* --- Screens --- */
+  --breakpoint-wide: 1440px;
+
+  /* --- Shadows & Background Images --- */
+  --shadow-deep: 0 10px 40px rgba(0, 0, 0, 0.1);
+  --background-image-nike: url('./assets/images/nike-swoosh.png');
+  --background-image-soccerFieldBg: url('./assets/images/soccer-field-bg.jpg');
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@utility padding {
+  @apply sm:px-16 px-8 sm:py-24 py-12;
+}
+
+@utility padding-x {
+  @apply sm:px-16 px-8;
+}
+
+@utility padding-y {
+  @apply sm:py-24 py-12;
+}
+
+@utility padding-l {
+  @apply sm:pl-16 pl-8;
+}
+
+@utility padding-r {
+  @apply sm:pr-16 pr-8;
+}
+
+@utility padding-t {
+  @apply sm:pt-24 pt-12;
+}
+
+@utility padding-b {
+  @apply sm:pb-24 pb-12;
+}
+
+@utility text-info {
+  @apply font-rubik text-gray-dark text-lg leading-7;
+}
