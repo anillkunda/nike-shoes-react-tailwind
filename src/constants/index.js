@@ -15,8 +15,6 @@ import {
   soccerShoes,
   runningShoes,
   basketballShoes,
-  soccerTackle,
-  basketballPlay,
 } from '../assets/images';
 
 export const navLinks = [
@@ -66,6 +64,7 @@ export const products = [
 
 export const collection = [
   {
+    id: 1,
     title: 'ENGINEERED FOR PURE SPEED',
     description:
       'Lightweight studs and a streamlined upper make these boots ideal for explosive acceleration.',
@@ -73,6 +72,7 @@ export const collection = [
     buttonText: 'Shop Now',
   },
   {
+    id: 2,
     title: 'RUN FURTHER, PLAY FASTER',
     description:
       'Designed for dynamic movement with smooth cushioning and responsive energy return.',
@@ -80,6 +80,7 @@ export const collection = [
     buttonText: 'Shop Now',
   },
   {
+    id: 3,
     title: 'DOMINATE EVERY DRIVE',
     description:
       'High-grip outsoles and reinforced lateral support for aggressive moves on the court.',
@@ -90,34 +91,24 @@ export const collection = [
 
 export const services = [
   {
-    imgURL: delivery,
+    id: 1,
+    icon: delivery,
     label: 'Fast Delivery',
     subtext:
       'Get your orders delivered quickly and reliably right to your doorstep.',
   },
   {
-    imgURL: exchange,
+    id: 2,
+    icon: exchange,
     label: 'Easy Returns',
     subtext:
       'Enjoy hassle-free returns and exchanges with our flexible return policy.',
   },
   {
-    imgURL: support,
+    id: 3,
+    icon: support,
     label: '24/7 Support',
     subtext: 'Our customer support team is available anytime to assist you.',
-  },
-];
-
-export const performanceData = [
-  {
-    src: { soccerTackle },
-    alt: 'Soccer',
-    style: 'w-full h-auto rounded-lg',
-  },
-  {
-    src: { basketballPlay },
-    alt: 'Basketball',
-    style: 'w-full h-auto rounded-lg mb-4',
   },
 ];
 

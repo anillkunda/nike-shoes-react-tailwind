@@ -40,7 +40,7 @@
 }
 
 @utility padding {
-  @apply sm:px-16 px-8 sm:py-24 py-12;
+  @apply sm:px-16 px-8 sm:py-15 py-10;
 }
 
 @utility padding-x {
