@@ -1,4 +1,4 @@
-import { Hero } from './sections';
+import { Hero, Products } from './sections';
 import { Navbar } from './components';
 
 const App = () => {
@@ -7,6 +7,9 @@ const App = () => {
       <Navbar />
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
+      </section>
+      <section className="padding">
+        <Products />
       </section>
     </main>
   );
