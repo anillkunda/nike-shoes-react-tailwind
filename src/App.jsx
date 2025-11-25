@@ -5,6 +5,7 @@ import {
   Performance,
   Services,
   Spotlight,
+  Showcase,
 } from './sections';
 import { Navbar } from './components';
 
@@ -29,6 +30,9 @@ const App = () => {
       </section>
       <section className="padding">
         <Spotlight />
+      </section>
+      <section className="xl:padding-l wide:padding-r padding-t padding-b">
+        <Showcase />
       </section>
     </main>
   );
