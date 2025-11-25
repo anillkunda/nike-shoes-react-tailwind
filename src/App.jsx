@@ -6,6 +6,7 @@ import {
   Services,
   Spotlight,
   Showcase,
+  Subscribe,
 } from './sections';
 import { Navbar } from './components';
 
@@ -33,6 +34,9 @@ const App = () => {
       </section>
       <section className="xl:padding-l wide:padding-r padding-t padding-b">
         <Showcase />
+      </section>
+      <section className=" bg-black padding-x">
+        <Subscribe />
       </section>
     </main>
   );
