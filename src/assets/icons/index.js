@@ -7,6 +7,7 @@ import arrowForward from './arrow-forward.svg';
 import hamburger from './hamburger.svg';
 
 import nikeLogo from './nike-logo.svg';
+import footerLogo from './nike-footer.svg';
 import jordanLogo from './jordan-logo.svg';
 
 import github from './github.svg';
@@ -22,6 +23,7 @@ export {
   arrowForward,
   hamburger,
   nikeLogo,
+  footerLogo,
   jordanLogo,
   github,
   instagram,

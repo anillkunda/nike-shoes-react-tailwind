@@ -17,10 +17,13 @@
   /* --- Colors --- */
   --color-black: #000000;
   --color-white: #ffffff;
-  --color-offwhite: #f1f1f1;
+
   --color-red-coral: #ff6452;
+
+  --color-gray-light: #aeaeaf;
   --color-gray-dark: #555555;
   --color-gray-darkest: #131313;
+
   --color-white-400: rgba(255, 255, 255, 0.8);
 
   /* --- Screens --- */

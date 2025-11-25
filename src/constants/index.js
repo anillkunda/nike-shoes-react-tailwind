@@ -2,7 +2,6 @@ import {
   delivery,
   exchange,
   support,
-  github,
   instagram,
   linkedin,
   x,
@@ -129,8 +128,8 @@ export const footerLinks = [
     links: [
       { name: 'Get Help', link: '/' },
       { name: 'Order Status', link: '/' },
-      { name: 'Return', link: '/' },
-      { name: 'Shipping and Delivery', link: '/' },
+      { name: 'Shipping & Delivery', link: '/' },
+      { name: 'Return Policy', link: '/' },
       { name: 'Order Cancellation', link: '/' },
       { name: 'Payment Options', link: '/' },
       { name: 'Contact Us', link: '/' },
@@ -146,13 +145,6 @@ export const footerLinks = [
 ];
 
 export const footerIcons = [
-  { src: instagram, alt: 'Instagram logo' },
-  { src: linkedin, alt: 'Linkedin logo' },
-  { src: x, alt: 'X logo' },
-];
-
-export const socialMedia = [
-  { src: github, alt: 'Github logo' },
   { src: instagram, alt: 'Instagram logo' },
   { src: linkedin, alt: 'Linkedin logo' },
   { src: x, alt: 'X logo' },
