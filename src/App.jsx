@@ -7,6 +7,7 @@ import {
   Spotlight,
   Showcase,
   Subscribe,
+  Footer,
 } from './sections';
 import { Navbar } from './components';
 
@@ -37,6 +38,9 @@ const App = () => {
       </section>
       <section className=" bg-black padding-x">
         <Subscribe />
+      </section>
+      <section className=" bg-black padding-x pb-8">
+        <Footer />
       </section>
     </main>
   );
