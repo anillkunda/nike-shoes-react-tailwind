@@ -13,6 +13,7 @@ import basketballShoes from './basketball-shoes.jpg';
 import soccerTackle from './soccer-tackle.jpg';
 import basketballPlay from './basketball-play.jpg';
 import soccerKick from './soccer-kick.jpg';
+import soccerField from './soccer-field-bg.jpg';
 
 export {
   nikeHero,
@@ -27,4 +28,5 @@ export {
   soccerTackle,
   basketballPlay,
   soccerKick,
+  soccerField,
 };

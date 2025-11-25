@@ -1,4 +1,11 @@
-import { Collections, Hero, Products, Performance, Services } from './sections';
+import {
+  Collections,
+  Hero,
+  Products,
+  Performance,
+  Services,
+  Spotlight,
+} from './sections';
 import { Navbar } from './components';
 
 const App = () => {
@@ -19,6 +26,9 @@ const App = () => {
       </section>
       <section className="padding">
         <Services />
+      </section>
+      <section className="padding">
+        <Spotlight />
       </section>
     </main>
   );
