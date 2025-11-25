@@ -1,10 +1,11 @@
 import { soccerTackle, basketballPlay } from '../assets/images';
+import { arrowForward } from '../assets/icons';
 import { Button } from '../components';
 
 const Performance = () => {
   return (
     <section className="w-full max-container">
-      <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="grid lg:grid-cols-2 gap-7 md:gap-12 items-center">
         <div className="space-y-10 max-[1023px]:row-start-2">
           <img
             src={soccerTackle}
@@ -20,7 +21,8 @@ const Performance = () => {
           </p>
 
           <Button
-            label="Learn more"
+            label="learn more"
+            iconURL={arrowForward}
             backgroundColor="bg-black"
             textColor="text-white"
           />
@@ -29,7 +31,7 @@ const Performance = () => {
         <div className="space-y-8">
           <h1 className="text-2xl md:text-5xl font-helvetica font-bold leading-tight">
             MAXIMUM <br />
-            <span className="text-red-coral inline-block mt-3 max-sm:mt-0">
+            <span className="text-red-coral inline-block mt-0 md:mt-3">
               PERFORMANCE
             </span>{' '}
             FOR <br />

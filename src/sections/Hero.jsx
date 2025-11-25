@@ -13,12 +13,12 @@ const Hero = () => {
         <p className="text-xl text-red-coral font-rubik">
           Next-Gen Performance
         </p>
-        <h1 className="mt-10 font-helvetica text-gray-darkest text-8xl max-sm:text-5xl max-sm:leading-15 font-bold">
+        <h1 className="mt-10 font-helvetica text-gray-darkest text-5xl md:text-8xl max-sm:leading-15 font-bold">
           <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">
             The New Arrival
           </span>
           <br />
-          <span className="text-red-coral inline-block mt-3 max-sm:mt-0">
+          <span className="text-red-coral inline-block mt-0 md:mt-3">
             Nike
           </span>{' '}
           Shoes
@@ -30,10 +30,10 @@ const Hero = () => {
 
         <Button label="Explore All" iconURL={arrowForward} />
 
-        <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16 max-sm:mt-14 max-sm:gap-8">
+        <div className="flex justify-start items-start flex-wrap w-full mt-14 md:mt-20 gap-8  md:gap-16">
           {statistics.map((stat) => (
             <div key={stat.label}>
-              <p className="text-5xl text-gray-darkest font-helvetica font-black max-sm:text-[32px]">
+              <p className="text-[32px] md:text-5xl text-gray-darkest font-helvetica font-black">
                 {stat.value}
               </p>
               <p className="font-rubik leading-7 text-gray-dark text-lg">

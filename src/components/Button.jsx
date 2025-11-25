@@ -16,15 +16,15 @@ const Button = ({
             } rounded-full ${fullWidth && 'w-full'}
             `}
     >
-      <span className="font-helvetica font-medium mx-3 text-lg max-sm:text-[16px] max-sm:mx-2">
+      <span className="font-helvetica font-medium mx-2 md:mx-3 text-[16px] md:text-lg">
         {label}
       </span>
       {iconURL && (
-        <div className="flex items-center justify-center bg-white rounded-full w-11 h-11 max-sm:w-9 max-sm:h-9">
+        <div className="flex items-center justify-center bg-white rounded-full w-9 h-9 md:w-11 md:h-11">
           <img
             src={iconURL}
             alt="icon"
-            className="w-5 h-5 max-sm:w-3 rotate-320"
+            className="w-3 h-3 md:w-5 md:h-5 rotate-320"
           />
         </div>
       )}

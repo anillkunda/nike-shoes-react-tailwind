@@ -4,7 +4,7 @@ import { Button } from '../components';
 
 const Spotlight = () => {
   return (
-    <section className="flex justify-between md:items-center  max-lg:flex-col gap-10 w-full max-container">
+    <section className="flex justify-between md:items-center max-lg:flex-col gap-10 w-full max-container">
       <div className="lg:w-2/5 sm:mt-0">
         <h1 className="text-4xl md:text-7xl font-helvetica font-extrabold leading-tight">
           READY FOR THE{' '}
