@@ -5,6 +5,10 @@ import { Button } from '../components';
 const Performance = () => {
   return (
     <section className="w-full max-container">
+      <h1 className="text-3xl md:text-5xl font-helvetica font-extrabold mb-10">
+        &mdash; Maximum{' '}
+        <span className="text-red-coral inline-block">Performance</span>
+      </h1>
       <div className="grid lg:grid-cols-2 gap-7 md:gap-12 items-center">
         <div className="space-y-10 max-[1023px]:row-start-2">
           <img
@@ -28,14 +32,14 @@ const Performance = () => {
           />
         </div>
 
-        <div className="space-y-8">
-          <h1 className="text-2xl md:text-5xl font-helvetica font-bold leading-tight">
-            MAXIMUM <br />
+        <div className="space-y-15">
+          <h1 className="text-3xl md:text-7xl lg:text-5xl font-helvetica font-bold leading-tight">
+            Ultimate{' '}
             <span className="text-red-coral inline-block mt-0 md:mt-3">
-              PERFORMANCE
+              Athletic
             </span>{' '}
-            FOR <br />
-            EVERY ACTIVITY
+            <br />
+            Drive In Every Sport
           </h1>
 
           <img

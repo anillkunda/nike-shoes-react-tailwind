@@ -19,7 +19,7 @@ const Navbar = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="font-rubik leading-normal text-lg text-gray-light hover:text-red-coral transition-colors duration-300"
+                className="font-rubik leading-normal text-lg text-gray-dark hover:text-red-coral transition-colors duration-300"
               >
                 {item.label}
               </a>
