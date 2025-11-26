@@ -4,7 +4,7 @@ import { Button } from '../components';
 
 const Performance = () => {
   return (
-    <section className="w-full max-container">
+    <section id="performance" className="w-full max-container">
       <h1 className="text-3xl md:text-5xl font-helvetica font-extrabold mb-10">
         &mdash; Maximum{' '}
         <span className="text-red-coral inline-block">Performance</span>

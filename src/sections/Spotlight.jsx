@@ -4,7 +4,7 @@ import { Button } from '../components';
 
 const Spotlight = () => {
   return (
-    <section className="w-full max-container">
+    <section id="spotlight" className="w-full max-container">
       <h1 className="text-3xl md:text-5xl font-helvetica font-extrabold mb-10">
         &mdash; Ready For{' '}
         <span className="text-red-coral inline-block">Spotlight</span>

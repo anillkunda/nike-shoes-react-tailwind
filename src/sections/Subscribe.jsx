@@ -1,6 +1,9 @@
 const Subscribe = () => {
   return (
-    <section className="bg-black text-white py-10 max-container">
+    <section
+      id="contact-us"
+      className="bg-black text-white py-10 max-container"
+    >
       <div className="flex justify-between items-start gap-10 md:gap-15 max-sm:flex-wrap max-lg:flex-col">
         <div className="space-y-4">
           <h2 className="font-helvetica font-semibold text-2xl">Newsletter</h2>

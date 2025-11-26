@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import 'tailwindcss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: Helvetica, sans-serif;
   src: url('/public/Font/HELVETICASCHOOL.TTF');
